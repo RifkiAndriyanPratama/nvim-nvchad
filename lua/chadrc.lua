@@ -13,7 +13,11 @@ M.ui = {
   statusline = {
     theme = "minimal",
     separator_style = "round"
-  }
+  },
+
+  tabufline = {
+    enabled = false,
+  },
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
