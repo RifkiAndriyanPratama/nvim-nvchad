@@ -6,7 +6,14 @@
 local M = {}
 
 M.base46 = {
-	theme = "nord",
+	theme = "everblush",
+}
+
+M.ui = {
+  statusline = {
+    theme = "minimal",
+    separator_style = "round"
+  }
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
