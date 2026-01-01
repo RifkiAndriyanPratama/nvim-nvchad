@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    event = "BufWritePre",
     opts = require "configs.conform",
   },
 
@@ -19,7 +19,7 @@ return {
     config = function()
       require "configs/chunk"
       -- require("hlchunk").setup({})
-    end
+    end,
   },
 
   -- test new blink
