@@ -8,7 +8,8 @@ local servers = {
   "clangd",
   "yamlls",
   "pyright",
-  "intelephense"
+  "intelephense",
+  "bashls"
 }
 vim.lsp.enable(servers)
 
