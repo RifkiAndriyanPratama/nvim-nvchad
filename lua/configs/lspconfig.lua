@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { 
+local servers = {
   "html",
   "cssls",
   "pythonls",
@@ -9,8 +9,9 @@ local servers = {
   "yamlls",
   "pyright",
   "intelephense",
-  "bashls"
+  "bashls",
+  "stylua",
 }
 vim.lsp.enable(servers)
 
--- read :h vim.lsp.config for changing options of lsp servers 
+-- read :h vim.lsp.config for changing options of lsp servers

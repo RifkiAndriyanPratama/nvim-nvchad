@@ -22,6 +22,16 @@ return {
     end,
   },
 
+  {
+    "rachartier/tiny-inline-diagnostic.nvim",
+    event = "VeryLazy",
+    priority = 1000,
+    config = function()
+      require "configs.inline-diagnostics"
+      vim.diagnostic.config { virtual_text = false } -- Disable Neovim's default virtual text diagnostics
+    end,
+  },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
