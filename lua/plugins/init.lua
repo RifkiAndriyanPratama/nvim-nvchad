@@ -13,6 +13,15 @@ return {
     end,
   },
 
+  {
+    "shellRaining/hlchunk.nvim",
+    event = { "BufReadPre", "BufNewFile" },
+    config = function()
+      require "configs/chunk"
+      -- require("hlchunk").setup({})
+    end
+  },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
