@@ -32,6 +32,9 @@ return {
     end,
   },
 
+  { "nvzone/volt", lazy = true },
+  { "nvzone/menu", lazy = true },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
